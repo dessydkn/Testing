@@ -1,0 +1,12 @@
+kamus
+  m,n,o:integer;
+  p1,p2,q:real;
+Algoritma
+  input(m);
+  input(n);
+  input(o);
+  q<m*n*o;
+  r1<(-n+sqrt(q))/2m
+  r2<(-n-sqrt(q))/2m
+  output(r1);
+  output(r2);
